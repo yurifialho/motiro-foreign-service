@@ -1,0 +1,10 @@
+version: "3.8"
+services: 
+  motiro-foreign-service:
+    extends:
+      file: ./docker-compose.yml
+      service: motiro-foreign-service
+    volumes:
+      - .:/usr/src/app:cached
+    ports:
+      - 10003:10003

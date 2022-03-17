@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  motiro-foreign-service:
+    build: .
+    image: motiro-foreign-service
+    container_name: motiro-foreign-service
+    ports:
+      - "10003:10003"
+    environment:
+      DATABASE_URL: mongo
+      DATABASE_USER: kata
+      DATABASE_PASS: katapass
+      DATABASE_SCHEMA: kata
+      DATABASE_RESET: 'False'
+      CVE_SEARCH_URL:
+

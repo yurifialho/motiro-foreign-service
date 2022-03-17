@@ -1,0 +1,11 @@
+requests
+pytest
+pyyaml
+coloredlogs
+mock
+python-slugify
+Flask
+flask_restx
+healthcheck
+uwsgi
+pylint

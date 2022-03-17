@@ -1,0 +1,7 @@
+# Python
+__pycache__
+.pytest_cache
+.venv
+.pymon
+Chart.lock
+helm/charts/*
